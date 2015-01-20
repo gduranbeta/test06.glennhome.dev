@@ -309,8 +309,8 @@ function twentyfifteen_search_form_modify( $html ) {
 }
 add_filter( 'get_search_form', 'twentyfifteen_search_form_modify' );
 
-function foo() {
-	return true;
+function foo($id=false) {
+	return $id;
 }
 
 /**
